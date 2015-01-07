@@ -1,0 +1,25 @@
+1. first download the whole folder from github or clone it in your desktop.
+2. First run the python-2.7.6.msi
+3. Then run all the executable file with extension (.exe)
+4. 
+	a.Now go in setuptools-11.3 folder. 
+	b.open command window here by pressing shift and right click. 
+	c.Select "Open Command Window Here". 
+ 	d.Now run the following command:
+		python setup.py install
+5. 
+	a. Go to dist folder
+	b. There will be some folders
+	c. Now go inside each folder.
+	d. open command window as before
+	e. run the command:
+		python setup.py install
+
+6.During python setup, the default location for python be 'C:\Python27'
+7.go to pythonnet-2.0.0.dev1-cp27-none-win32 folder 
+8.copy clr.pyd and Python.Runtime.dll
+9.paste it under the DLLs folder under python setup folder. Default should be 'C:\Python27\DLLs'
+
+Now you are good to run Runmanager.py and enjoy automation testing
+
+	
