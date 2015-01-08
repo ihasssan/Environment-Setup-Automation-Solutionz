@@ -22,4 +22,33 @@
 
 Now you are good to run Runmanager.py and enjoy automation testing
 
+
+
+If you do not have git first you have to give a git setup,follow this instruction:
+
+1. Run The Git-1.9.4-preview20140815.exe file.
+2. Now after setting up git you will have to open your github account. For sign up go to www.github.com and sign up for free.
+3. Now set up the git config email and user name:
+	user the github email and username as you give when you sign up for github.com
+	a. right click and select 'Git Bash Here'
+	b. run this following command:
+		git config --global user.name "your user name"
+	c. Now run this command to check if your user name is okay.
+		git config --global user.name
+	d. set up the email by the following command:
+		git config --global user.email "your email"
+	e. check the email is okay
+		git config --global user.email
+4. Set up the third party git client named tortorisegit
+	if your os is 32 bit run TortoiseGit-1.8.12.0-32bit.msi
+	if your os is 64 bit run TortoiseGit-1.8.12.0-64bit.msi
+5. Go to the following link:
+	https://github.com/AutomationSolutionz/Framework_0.1/
 	
+6. Copy the HTTPS Clone URL on the right side of the page. The default should be : https://github.com/AutomationSolutionz/Framework_0.1.git
+7. Now right click on desktop and select 'Git Clone..'
+8. Select the directory you want to keep your code.
+9. After cloning the whole framework go to Framework_0.1\Automationz\Framework_0.1 folder  and make sure your postgresql database is setup properly or contact shibly vai as I showed him that day.
+10. Now run start_django.bat file
+11. This will start the server I showed you in the demo.
+12. For now login with username:riz and password: . 
